@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2683afd6.css",
-    "main.js": "/static/js/main.25849094.js",
+    "main.css": "/static/css/main.b4ab4b29.css",
+    "main.js": "/static/js/main.b13e7072.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/IMG_0865_2.PNG": "/static/media/IMG_0865_2.357d0a3440b6b03e3e0c.PNG",
     "static/media/Poppins-Thin.ttf": "/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
@@ -11,15 +11,16 @@
     "static/media/Poppins-SemiBold.ttf": "/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
     "static/media/Poppins-Bold.ttf": "/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
     "static/media/Poppins-ExtraBold.ttf": "/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
+    "static/media/Ashiq.png": "/static/media/Ashiq.51bb767b3ddf86776843.png",
     "static/media/bg.jpg": "/static/media/bg.d580cd375921d13ae60d.jpg",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.2683afd6.css.map": "/static/css/main.2683afd6.css.map",
-    "main.25849094.js.map": "/static/js/main.25849094.js.map",
+    "main.b4ab4b29.css.map": "/static/css/main.b4ab4b29.css.map",
+    "main.b13e7072.js.map": "/static/js/main.b13e7072.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2683afd6.css",
-    "static/js/main.25849094.js"
+    "static/css/main.b4ab4b29.css",
+    "static/js/main.b13e7072.js"
   ]
 }
