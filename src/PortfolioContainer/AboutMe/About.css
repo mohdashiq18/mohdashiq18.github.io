@@ -1,0 +1,59 @@
+.about-profile{
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 60%;
+    
+}
+.perent-about{
+    display: flex;
+   justify-content: center;
+   font-family: Poppins;
+   padding-bottom: 50px;
+ 
+}
+.profile{
+    width: 50%;
+}
+.about-summy{
+    width: 50%;
+}
+.profile img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
+}
+@media screen and (max-width:1180px)  {
+    
+    .about-profile{
+        display: flex;
+        
+        flex-direction: column;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        width: 90%;
+    }
+    .profile img{
+        width: 60%;
+        height: 100%;
+        border-radius: 50%;
+        
+    }
+    .profile{
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+    .about-summy{
+        width: 100%;
+    }
+}
+@media screen and (max-width:460px){ 
+    .about-profile{
+        display: flex;
+        
+        
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        width: 100%;
+    }
+}

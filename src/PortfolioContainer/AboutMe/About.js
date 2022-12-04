@@ -1,28 +1,67 @@
 import React from 'react'
-
+import "./About.css"
 export default function About() {
   return (
-    <div>About
-         <div id="about" style={{width:"200px"}}>
-          I would like to begin by drawing your attention to the title of this lecture: "Religious Belief and Public Morality: A Catholic Governor's Perspective." I was not invited to speak on "Church and State" generally. Certainly not "Mondale vs. Reagan." The subject assigned is difficult enough. I will try not to do more than I've been asked.
-
-It's not easy to stay contained. Certainly, although everybody talks about a wall of separation between church and state, I've seen religious leaders scale that wall with all the dexterity of olympic athletes. In fact, I've seen so many candidates in churches and synagogues that I think we should change election day from Tuesdays to Saturdays and Sundays.
-
-I am honored by this invitation, but the record shows that I am not the first Governor of New York to appear at an event involving Notre Dame. One of my great predecessors, Al Smith, went to the Army - Notre Dame football game each time it was played in New York.
-
-His fellow Catholics expected Smith to sit with Notre Dame; protocol required him to sit with Army because it was the home team. Protocol prevailed. But not without Smith noting the dual demands on his affections. "I'll take my seat with Army," he said, "but I commend my soul to Notre Dame!"
+    <div className="about-container" id="about">
+        <div className='text'  >
+        <h1 style={{textAlign:"center",fontFamily: "Poppins Bold"}}>About Me</h1>
+        <p style={{textAlign:"center",fontSize:"12px",fontFamily: "Poppins SemiBold"}}>Why Choose Me?</p>
+        </div>
+       <div className='perent-about'>
+       <div className='about-profile'>
+          <div className='profile'>
+            <img src='https://avatars.githubusercontent.com/u/107461657?v=4' />
           </div>
+          <div style={{padding:"20px"}} className="about-summy">
+            <div className='summry' style={{fontFamily:"Poppins SemiBold"}}>
+            Strong in design and integration with intuitive problem-solving skills. Proficient
+in HTML, CSS, JavaScript, React, and Redux. Passionate about implementing and
+launching new projects. Ability to translate business requirements into technical
+solutions. Looking to start a career as a web developer with a reputed firm
+driven by technology.
+
+            </div>
+
+            <div className='skill-about'>
+              <h5 style={{fontFamily: "Poppins Bold" ,marginTop:"30px"}}>Here are a Few Highlights</h5>
+              <div style={{display:"flex",gap:"10px",marginTop:"20px"}}><div style={{width:"19px",height:"19px",borderRadius:"50%",backgroundColor:"#ff5823"}}> </div>
+              <p style={{fontFamily: "Poppins SemiBold"}}>Full Stack Web Developer</p>
+              </div>
+
+              <div style={{display:"flex",gap:"10px"}}><div style={{width:"19px",height:"19px",borderRadius:"50%",backgroundColor:"#ff5823"}}> </div>
+              <p style={{fontFamily: "Poppins SemiBold"}}>Interactive Front End as per the design</p>
+              </div>
 
 
-          <div id="service" style={{width:"200px",backgroundColor:"white"}}>
-          I would like to begin by drawing your attention to the title of this lecture: "Religious Belief and Public Morality: A Catholic Governor's Perspective." I was not invited to speak on "Church and State" generally. Certainly not "Mondale vs. Reagan." The subject assigned is difficult enough. I will try not to do more than I've been asked.
+              <div style={{display:"flex",gap:"10px"}}><div style={{width:"19px",height:"19px",borderRadius:"50%",backgroundColor:"#ff5823"}}> </div>
+              <p style={{fontFamily: "Poppins SemiBold"}}>HTML, CSS and JavaScript</p>
+              </div>
 
-It's not easy to stay contained. Certainly, although everybody talks about a wall of separation between church and state, I've seen religious leaders scale that wall with all the dexterity of olympic athletes. In fact, I've seen so many candidates in churches and synagogues that I think we should change election day from Tuesdays to Saturdays and Sundays.
 
-I am honored by this invitation, but the record shows that I am not the first Governor of New York to appear at an event involving Notre Dame. One of my great predecessors, Al Smith, went to the Army - Notre Dame football game each time it was played in New York.
+              <div style={{display:"flex",gap:"10px"}}><div style={{width:"19px",height:"19px",borderRadius:"50%",backgroundColor:"#ff5823"}}> </div>
+              <p style={{fontFamily: "Poppins SemiBold"}}>React and Recat Native</p>
+              </div>
 
-His fellow Catholics expected Smith to sit with Notre Dame; protocol required him to sit with Army because it was the home team. Protocol prevailed. But not without Smith noting the dual demands on his affections. "I'll take my seat with Army," he said, "but I commend my soul to Notre Dame!"
+
+              <div style={{display:"flex",gap:"10px"}}><div style={{width:"19px",height:"19px",borderRadius:"50%",backgroundColor:"#ff5823"}}> </div>
+              <p style={{fontFamily: "Poppins SemiBold"}}>Redux for State Management </p>
+              </div>
+
+              <div style={{display:"flex",gap:"10px"}}><div style={{width:"19px",height:"19px",borderRadius:"50%",backgroundColor:"#ff5823"}}> </div>
+              <p style={{fontFamily: "Poppins SemiBold"}}>Managing database</p>
+              </div>
+               
+            </div>
+            <div className="profile-option" style={{marginTop:"20px",justifyContent:"space-evenly",display:"flex"}}>
+            <button className="btn primary-btn"> Hire Me </button>
+            <a href="Resume.pdf" download="Ashique Resume.pdf">
+              <button className="btn highlighted-btn">Get Resume</button>
+            </a>
           </div>
+          </div>
+        </div>
+       </div>
+
     </div>
   )
 }
