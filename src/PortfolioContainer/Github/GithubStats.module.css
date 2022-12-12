@@ -1,0 +1,96 @@
+@keyframes float {
+	0% {
+		
+		transform: translatey(0px);
+	}
+	50% {
+	
+		transform: translatey(-20px);
+	}
+	100% {
+		
+		transform: translatey(0px);
+	}
+}
+
+
+.heading {
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.static {
+    width: 90%;
+    display: flex;
+    height: 40vh;
+    /* border: 2px solid black; */
+    margin: auto;
+    justify-content: space-evenly;
+    animation: float 1s ease-in-out infinite;
+}
+
+.static>div {
+    width: 50%;
+    height: 100%;
+    margin-top: 20px;
+    /* border: 1px solid yellow; */
+}
+
+.static>div>img {
+    width: 100%;
+    height: 100%;
+}
+
+.calen{
+
+    width: 90%;
+    margin: auto;
+    padding: 30px 15px;
+    border-radius: 10px;
+    background: black;
+    color: white;
+    /* box-shadow: crimson 0px -12px 30px, crimson 0px 4px 6px, crimson 0px 12px 13px,
+      crimson 0px -3px 5px; */
+      border: 2px solid yellow;
+    transition: all 0.5s ease;
+    margin-top: 30px;
+}
+
+
+
+@media (max-width: 496px) {
+    .static  {
+      flex-direction: column;
+      /* border: 2px solid red; */
+      margin-top: 20px;
+      height: 80vh;
+    }
+    .static>div {
+     width: 100%;
+ 
+    }
+    
+    .static>div>img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .static  {
+      flex-direction: column;
+      /* border: 2px solid red; */
+      margin-top: 10px;
+      height: 60vh;
+    }
+    .static>div {
+     width: 100%;
+ 
+    }
+    
+    .static>div>img {
+        width: 100%;
+        height: 100%;
+    }
+}

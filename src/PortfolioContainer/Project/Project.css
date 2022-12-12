@@ -1,0 +1,91 @@
+.project_main{
+    
+    background-color: black;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+.project{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 90px;
+    
+}
+.project_div{
+    width: 400px;
+    box-shadow: rgba(252, 249, 249, 0.867) 0px 5px 15px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.project_div:hover{
+    scale: 1.11;
+    background: white;
+    color: black;
+}
+.img{
+    width: 100%;
+    border-radius: 8px;
+  border: 2px solid black;
+}
+.img_heading{
+    font-size: 15px;
+    margin-top: 15px;
+
+}
+.bt{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.bt button{
+    padding: 8px 15px 8px 15px;
+    color: aliceblue;
+    border-radius: 20px;
+    background-color: #72737b;
+    border: 0px;
+    font-weight: bold;
+}
+.bt button:hover{
+    background-color: cornsilk;
+    color: #111;
+}
+@media (min-width:0px) and (max-width:860px) {
+    .project{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(1,fr);
+        grid-row-gap: 50px;
+        grid-column-gap: 50px;
+        align-items: center;
+       
+        
+    }
+    .project_div{
+        /* width: 60%; */
+        
+    }
+}
+@media (min-width:861px) and (max-width:1200px){
+    .project{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap: 50px;
+        grid-column-gap: 50px;
+        
+        padding: 60px;
+        margin: auto;
+    }
+    .project_div{
+        
+        box-shadow: rgba(233, 229, 229, 0.867) 0px 5px 15px;
+        background-color: #323444;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+    }
+}

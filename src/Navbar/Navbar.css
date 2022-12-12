@@ -21,10 +21,11 @@ i {
 .navbar-mainbg {
   
   padding: 0px;
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
-  background-color: #1f2235;
+  background-color: black;
+  z-index: 700;
   /* background-image: url('../assets/Home/light-background-hd-wallpaper-preview.jpg');
   background-repeat: no-repeat;
   background-size: cover; */
@@ -110,6 +111,7 @@ i {
   height: 25px;
   background-color: #fff;
   bottom: 10px;
+  
 }
 .hori-selector .right {
   right: -25px;
@@ -122,9 +124,10 @@ i {
   content: '';
   position: absolute;
   width: 50px;
+  
   height: 50px;
   border-radius: 50%;
-  background-color: #000000;
+  background-color: black;
 }
 .hori-selector .right:before {
   bottom: 0;
@@ -174,7 +177,7 @@ i {
     transition: all 0.7s;
   }
   .navbar-mainbg {
-    background-color: #1f2235;
+    background-color: black;
     padding: 0px;
     position: fixed;
     top: 0;

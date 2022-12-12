@@ -2,13 +2,30 @@ import logo from './logo.svg';
 import './App.css';
 import Home from "./PortfolioContainer/Home/Home"
 import About from './PortfolioContainer/AboutMe/About';
-import Skill from './PortfolioContainer/Skill/Skill';
+
+import Navbar from './Navbar/Navbar';
+import Project from './PortfolioContainer/Project/Project';
+import Homep from './PortfolioContainer/Project/Homep';
+import Contact from './PortfolioContainer/ContactMe/Contect';
+import GithubStats from './PortfolioContainer/Github/Github';
+import TechSkills from './PortfolioContainer/Skill/Skill';
+import Footer from './PortfolioContainer/Footer/Footer';
+
+
+
 function App() {
   return (
     <div className="App">
+      <Navbar/>
      <Home/>
      <About/>
-    <Skill/>
+    <TechSkills/>
+    <Homep/>
+    <GithubStats/>
+    <Contact/>
+    <Footer/>
+
+    
     </div>
   );
 }

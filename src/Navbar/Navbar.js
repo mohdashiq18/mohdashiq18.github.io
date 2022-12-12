@@ -87,24 +87,24 @@ const Navbar = () => {
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" to="service" smooth={true} duration={1000} offset={-100} spy={true} exact>
+              <Link className="nav-link" to="skill" smooth={true} duration={1000} offset={-100} spy={true} exact>
                 <i 
                 className="far fa-clone">
-                </i>Services
+                </i>Skills
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/testimonial" exact>
+              <Link className="nav-link" to="Project" smooth={true} duration={1000} offset={-100} spy={true} exact>
                 <i 
                 className="far fa-chart-bar">
-                </i>Testimonial
+                </i>Project
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/contact" exact>
+              <Link className="nav-link" to="contact" smooth={true} duration={1000} offset={-100} spy={true} exact>
                 <i 
                 className="far fa-copy">
-                </i>Contact Us
+                </i>Contact
               </Link>
             </li>
         </ul>

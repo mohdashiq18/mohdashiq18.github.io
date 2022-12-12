@@ -2,9 +2,13 @@
     display: flex;
     border-radius: 20px;
     justify-content: center;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    width: 60%;
+    box-shadow: rgb(106, 105, 103) 0px 5px 15px;
+    width: 70%;
     
+}
+.about-summy{
+    background-color: black;
+    border-radius: 0px 20px 20px 0px;
 }
 .perent-about{
     display: flex;
@@ -12,6 +16,7 @@
    font-family: Poppins;
    padding-bottom: 50px;
  
+
 }
 .profile{
     width: 50%;
@@ -30,7 +35,7 @@
         display: flex;
         
         flex-direction: column;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+       
         width: 90%;
     }
     .profile img{
@@ -43,9 +48,12 @@
         width: 100%;
         text-align: center;
         padding: 20px;
+        background-color: black;
+        border-radius: 20px 20px 0px 0px;
     }
     .about-summy{
         width: 100%;
+        border-radius: 0px 0px 20px 20px;
     }
 }
 @media screen and (max-width:460px){ 
