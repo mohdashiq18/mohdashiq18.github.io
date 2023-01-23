@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.6c5320c8.css",
-    "main.js": "/static/js/main.8fd585fe.js",
+    "main.css": "/static/css/main.9c2e9613.css",
+    "main.js": "/static/js/main.4135a60f.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/prject2.png": "/static/media/prject2.cdcb04db395064b6573f.png",
+    "static/media/Project4.png": "/static/media/Project4.37b3b58afbe25a4759c8.png",
     "static/media/project3.png": "/static/media/project3.8edb5228128ab778b146.png",
     "static/media/Screenshot 2022-12-09 174935.png": "/static/media/Screenshot 2022-12-09 174935.c41890c29dad26f89d91.png",
     "static/media/netlify.png": "/static/media/netlify.603ef81c872f9df8c343.png",
@@ -32,12 +33,12 @@
     "static/media/npm.svg": "/static/media/npm.90efe3aab7bef83e483420e8bb32be49.svg",
     "static/media/typescript-logo.svg": "/static/media/typescript-logo.7c2e5f599fa6ccab4be8a590908ec5bb.svg",
     "static/media/mongodb.svg": "/static/media/mongodb.634dd4c326dd4bb1d292a8180bbacffd.svg",
-    "main.6c5320c8.css.map": "/static/css/main.6c5320c8.css.map",
-    "main.8fd585fe.js.map": "/static/js/main.8fd585fe.js.map",
+    "main.9c2e9613.css.map": "/static/css/main.9c2e9613.css.map",
+    "main.4135a60f.js.map": "/static/js/main.4135a60f.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c5320c8.css",
-    "static/js/main.8fd585fe.js"
+    "static/css/main.9c2e9613.css",
+    "static/js/main.4135a60f.js"
   ]
 }
