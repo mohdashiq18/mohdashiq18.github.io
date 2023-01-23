@@ -54,7 +54,7 @@ driven by technology.
             </div>
             <div className="profile-option" style={{marginTop:"20px",justifyContent:"center",display:"flex"}}>
             {/* <button className="btn primary-btn"> Hire Me </button> */}
-            <a href="Resume.pdf" download="Ashique Resume.pdf">
+            <a href="Resume.pdf" download="Mohd-Ashique-Resume.pdf">
               <button className="btn highlighted-btn">Get Resume</button>
             </a>
           </div>

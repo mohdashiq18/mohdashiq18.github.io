@@ -8,7 +8,9 @@
 .project{
     display: flex;
     justify-content: center;
+   margin: auto;
     gap: 40px;
+    width: 90%;
     margin-top: 90px;
     
 }
@@ -16,10 +18,11 @@
     width: 400px;
     box-shadow: rgba(252, 249, 249, 0.867) 0px 5px 15px;
     background-color: black;
-    color: white;
+    color: rgb(174, 149, 149);
     padding: 10px;
     border-radius: 10px;
     transition: 0.5s;
+    text-align: center;
 }
 .project_div:hover{
     scale: 1.11;
@@ -32,9 +35,11 @@
   border: 2px solid black;
 }
 .img_heading{
-    font-size: 15px;
+    font-size: 22px;
     margin-top: 15px;
-
+    text-align: center;
+    font-weight: bold;
+    
 }
 .bt{
     display: flex;

@@ -1,6 +1,6 @@
 import React , {useEffect} from 'react'
 import './Navbar.css';
-import { NavLink } from 'react-router-dom';
+
 import $ from 'jquery';
 import { Link } from 'react-scroll';
 import Ashiq from "./Ashiq.png"
@@ -106,6 +106,11 @@ const Navbar = () => {
                 className="far fa-copy">
                 </i>Contact
               </Link>
+            </li>
+            <li>
+            <a href="Resume.pdf" download="Mohd-Ashique-Resume.pdf">
+              Get Resume
+            </a>
             </li>
         </ul>
       </div>
