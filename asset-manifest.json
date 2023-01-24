@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.9c2e9613.css",
-    "main.js": "/static/js/main.00c0fd36.js",
+    "main.js": "/static/js/main.8bf08a6c.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/prject2.png": "/static/media/prject2.cdcb04db395064b6573f.png",
+    "static/media/project3.png": "/static/media/project3.2c4f3c69d25f63dc9f20.png",
     "static/media/Project4.png": "/static/media/Project4.37b3b58afbe25a4759c8.png",
-    "static/media/project3.png": "/static/media/project3.8edb5228128ab778b146.png",
     "static/media/Screenshot 2022-12-09 174935.png": "/static/media/Screenshot 2022-12-09 174935.c41890c29dad26f89d91.png",
     "static/media/netlify.png": "/static/media/netlify.603ef81c872f9df8c343.png",
     "static/media/Poppins-Thin.ttf": "/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
@@ -33,11 +33,11 @@
     "static/media/typescript-logo.svg": "/static/media/typescript-logo.7c2e5f599fa6ccab4be8a590908ec5bb.svg",
     "static/media/mongodb.svg": "/static/media/mongodb.634dd4c326dd4bb1d292a8180bbacffd.svg",
     "main.9c2e9613.css.map": "/static/css/main.9c2e9613.css.map",
-    "main.00c0fd36.js.map": "/static/js/main.00c0fd36.js.map",
+    "main.8bf08a6c.js.map": "/static/js/main.8bf08a6c.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9c2e9613.css",
-    "static/js/main.00c0fd36.js"
+    "static/js/main.8bf08a6c.js"
   ]
 }
