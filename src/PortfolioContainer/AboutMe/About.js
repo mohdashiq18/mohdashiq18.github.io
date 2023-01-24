@@ -1,6 +1,10 @@
 import React from 'react'
 import "./About.css"
 export default function About() {
+  const handleResume=()=>{
+    window.open("https://drive.google.com/file/d/1ixjVZIB4taCtiB-EitAwQvr1hhwBWUW0/view?usp=sharing","_blank","noopener","noreferrer")
+  }
+
   return (
     <div className="about-container" id="about">
         <div className='text'  >
@@ -54,8 +58,8 @@ driven by technology.
             </div>
             <div className="profile-option" style={{marginTop:"20px",justifyContent:"center",display:"flex"}}>
             {/* <button className="btn primary-btn"> Hire Me </button> */}
-            <a href="Resume.pdf" download="Mohd-Ashique-Resume.pdf">
-              <button className="btn highlighted-btn">Get Resume</button>
+            <a href="Resume.pdf" onClick={handleResume} download="Mohd-Ashique-Resume.pdf">
+              <button className="btn highlighted-btn" onClick={handleResume}>Get Resume</button>
             </a>
           </div>
           </div>

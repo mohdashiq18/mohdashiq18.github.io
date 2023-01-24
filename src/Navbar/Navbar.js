@@ -43,6 +43,9 @@ const Navbar = () => {
     });
     
   }, []);
+  const handleResume=()=>{
+    window.open("https://drive.google.com/file/d/1ixjVZIB4taCtiB-EitAwQvr1hhwBWUW0/view?usp=sharing","_blank","noopener","noreferrer")
+  }
 
   return (
   <nav className="navbar navbar-expand-lg navbar-mainbg">
@@ -107,8 +110,8 @@ const Navbar = () => {
                 </i>Contact
               </Link>
             </li>
-            <li>
-            <a href="Resume.pdf" download="Mohd-Ashique-Resume.pdf">
+            <li onClick={handleResume}>
+            <a href="Resume.pdf" onClick={handleResume}  download="Mohd-Ashique-Resume.pdf" target="_blank">
               Get Resume
             </a>
             </li>

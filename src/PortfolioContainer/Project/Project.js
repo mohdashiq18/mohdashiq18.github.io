@@ -16,15 +16,30 @@ export default function Project() {
         </div>
 
         <div className='project'>
+
+          <div  className='project_div'>
+            <a href='https://beautyqueen0.netlify.app/' target="_blank"><img className='img' src={project3} alt="Project3"/></a>
+            <h4 className='img_heading' >BeautyBebo-Clone</h4>
+            <h4 style={{fontSize:"20px",fontFamily: "Poppins SemiBold",marginTop:"20px"}}>Teach-Stack</h4>
+                <p style={{fontSize:"18px"}} >React | Redux |Chakra-UI |NodeJs | ExpressJs | MongoDb-Atlas</p>
+                <h4 style={{fontSize:"20px",fontFamily: "Poppins SemiBold"}}>Description</h4>
+                <p style={{fontSize:"18px"}}>Beautyqueen is an e-commerce website for Makeup, Skin care, Hair care, Personal care, Mom and Baby care products.</p>
+                <div className='bt'>
+                    <a href='https://github.com/sujeetcoder/friendly-stage-2043' target="_blank"><button>Source Code</button></a>
+                    <a href='https://beautyqueen0.netlify.app/' target="_blank"><button>Web View</button></a>
+                </div>
+            </div>
+
+
+
             <div className='project_div'>
                 <a href='https://enchanting-profiterole-23dc48.netlify.app/' target="_blank"><img className='img' src={project1} alt="Project1"/></a>
                 <h4 className='img_heading'>Calendy-Clone</h4>
                 <h4 style={{fontSize:"20px",fontFamily: "Poppins SemiBold",marginTop:"20px"}}>Teach-Stack</h4>
                 <p style={{fontSize:"18px"}}>HTML | CSS | JavaScript</p>
                 <h4 style={{fontSize:"20px",fontFamily: "Poppins SemiBold"}}>Description</h4>
-                <p style={{fontSize:"18px"}}>It is develops a business communication platform
-used for teams to schedule, prepare and follow up
-on external meetings
+                <p style={{fontSize:"18px"}}>It is communication platform
+                Calendly is your scheduling automation platform for eliminating the back-and-forth emails for finding the perfect time — and so much more.
  </p>
                 <div className='bt'>
                     <a href='https://github.com/Rohit-world/greedy-roof-9177'target="_blank"><button>Source Code</button></a>
@@ -35,7 +50,7 @@ on external meetings
             <a href='https://mellow-taiyaki-a38052.netlify.app/' target="_blank"><img className='img' src={project2} alt="Project2" /></a>
             <h4 className='img_heading' >Anthropologie -Clone</h4>
             <h4 style={{fontSize:"20px",fontFamily: "Poppins SemiBold",marginTop:"20px"}}>Teach-Stack</h4>
-                <p style={{fontSize:"18px"}}>React | Chakra-ui </p>
+                <p style={{fontSize:"18px"}}>React | Chakra-ui | JavaScript | HTML | CSS </p>
                 <h4 style={{fontSize:"20px",fontFamily: "Poppins SemiBold"}}>Description</h4>
                 <p style={{fontSize:"18px"}} >Anthropologi is an e-commerce website for
 clothing, jewelry, home furniture, decoration,
@@ -45,21 +60,10 @@ beauty products, and gifts.</p>
                     <a href='https://mellow-taiyaki-a38052.netlify.app/' target="_blank"><button>Web View</button></a>
                 </div>
             </div>
-            <div  className='project_div'>
-            <a href='https://animated-vacherin-157856.netlify.app/'><img className='img' src={project3} alt="Project3"/></a>
-            <h4 className='img_heading' >Milaap-Clone</h4>
-            <h4 style={{fontSize:"20px",fontFamily: "Poppins SemiBold",marginTop:"20px"}}>Teach-Stack</h4>
-                <p style={{fontSize:"18px"}} >React | Chakra-ui</p>
-                <h4 style={{fontSize:"20px",fontFamily: "Poppins SemiBold"}}>Description</h4>
-                <p style={{fontSize:"18px"}}>Milaap app - fundraise and donate seamlessly! Set up and manage your fundraiser or donate to different causes from your mobile at anytime</p>
-                <div className='bt'>
-                    <a href='https://github.com/mohdashiq18/human-bee-8845/tree/main/milaap' target="_blank"><button>Source Code</button></a>
-                    <a href='https://animated-vacherin-157856.netlify.app/' target="_blank"><button>Web View</button></a>
-                </div>
-            </div>
+            
 
             <div  className='project_div'>
-            <a href='https://animated-vacherin-157856.netlify.app/'><img className='img' src={project4} alt="Project3"/></a>
+            <a href='https://shubhyatra.netlify.app/' target="_blank"><img className='img' src={project4} alt="Project3"/></a>
             <h4 className='img_heading' >Makemytrip-Clone</h4>
             <h4 style={{fontSize:"20px",fontFamily: "Poppins SemiBold",marginTop:"20px"}}>Teach-Stack</h4>
                 <p style={{fontSize:"18px"}} >React | Chakra-ui | MongoDB Atlas 

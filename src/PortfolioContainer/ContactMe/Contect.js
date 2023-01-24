@@ -40,15 +40,28 @@ const Contact = () => {
         <h4 className="link"><MdCall className="span"/>+91 70884017971</h4>
         </div>
         <div >
-          <h4 className="link"><MdEmail className="span"/>moashiq2018@gmail.com</h4>
+          <h4 className="link"><a href="https://moashiq2018@gmail.com" target="_blank" style={{color:"#e74d06"}}>
+          <MdEmail className="span"/>moashiq2018@gmail.com</a></h4>
         </div>
+
         <div >
-          <h4 className="link"><HiLocationMarker className="span"/>Fatehpur, Uttar Pradesh-212601</h4>
+          <h4 className="link"><a href="https://www.linkedin.com/in/mohd-ashique-91a00b233/" target="_blank" style={{color:"#e74d06"}}>
+                <i className="fa fa-linkedin-square"></i>Linkedin
+              </a></h4>
+        </div>
+
+
+        <div >
+          <h4 className="link"><a href="https://github.com/mohdashiq18" target="_blank" style={{color:"#e74d06"}}>
+                <i className="fa fa-github-square"></i>GitHub 
+              </a>
+              </h4>
         </div>
       </div>
       <div className="msg">
+      <h1 style={{marginTop:"20px"}}> Write Your Massage.</h1>
       <StyledContactForm>
-      <form ref={form} onSubmit={sendEmail}>
+      <form ref={form} onSubmit={sendEmail} style={{marginTop:"20px"}}>
       
       <input type="text" name="user_name" placeholder="Name" />
     
@@ -57,7 +70,6 @@ const Contact = () => {
       <textarea name="message" placeholder="Massage"/>
       <input type="submit" value="Send" />
     </form>
-   
     </StyledContactForm>
       </div>
       </div>
