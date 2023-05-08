@@ -125,7 +125,7 @@ const TechSkills = () => {
   ];
 
   return (
-    <div id="skill">
+    <div  id="skills">
       <section className={`${styles.tech} ${styles.section_tech}`}>
         <div className={styles.max_width}>
           <h2 className={styles.title}>Techinal Skills</h2>

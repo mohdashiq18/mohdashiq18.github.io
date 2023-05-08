@@ -13,6 +13,7 @@ function GithubStats() {
             <img
               src="https://github-readme-streak-stats.herokuapp.com/?user=mohdashiq18&theme=dark"
               alt="Github Contributions"
+              id="github-streak-stats"
             />
             </div>
             <div >

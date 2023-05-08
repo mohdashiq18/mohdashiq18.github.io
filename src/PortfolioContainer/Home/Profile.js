@@ -9,16 +9,26 @@ export default function Profile() {
         <div className="profile-details">
           <div className="colz">
             <div className="colz-icon">
-              <a href="#">
+              <a
+                href="https://www.facebook.com/ashiq.ali.927758"
+                target="_blank"
+              >
                 <i className="fa fa-facebook-square"></i>
               </a>
-              <a href="https://github.com/mohdashiq18" target="_blank">
+              <a href="https://github.com/mohdashiq18" target="_blank" id="contact-github">
                 <i className="fa fa-github-square"></i>
               </a>
-              <a href="https://www.instagram.com/_ashiq._ali__/" target="_blank">
+              <a
+                href="https://www.instagram.com/_ashiq._ali_/?next=%2F"
+                target="_blank"
+              >
                 <i className="fa fa-instagram"></i>
               </a>
-              <a href="https://www.linkedin.com/in/mohd-ashique-91a00b233/" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/mohd-ashique-91a00b233/"
+                target="_blank"
+                id="contact-linkedin"
+              >
                 <i className="fa fa-linkedin-square"></i>
               </a>
             </div>
@@ -26,7 +36,10 @@ export default function Profile() {
           <div className="profile-details-name">
             <span className="primary-text">
               {" "}
-              Hello, I'M <span className="highlighted-text">Mohd Ashique</span>
+              Hello, I'M{" "}
+              <span className="highlighted-text" id="user-detail-name">
+                Mohd Ashique
+              </span>
             </span>
           </div>
           <div className="profile-details-role">
@@ -56,9 +69,16 @@ export default function Profile() {
           </div>
           <div className="profile-option">
             {/* <button className="btn primary-btn"> Hire Me </button> */}
-            <Link to="about" smooth={true} duration={1000} offset={-100} spy={true} exact>
+            <Link
+              to="about"
+              smooth={true}
+              duration={1000}
+              offset={-100}
+              spy={true}
+              exact
+            >
               <button className="btn highlighted-btn">About me</button>
-              </Link>
+            </Link>
           </div>
         </div>
         <div className="profile-picture">

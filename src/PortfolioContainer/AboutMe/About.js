@@ -14,10 +14,10 @@ export default function About() {
        <div className='perent-about'>
        <div className='about-profile'>
           <div className='profile'>
-            <img src='https://avatars.githubusercontent.com/u/107461657?v=4' />
+            <img src='https://avatars.githubusercontent.com/u/107461657?v=4' class="home-img" />
           </div>
           <div style={{padding:"20px"}} className="about-summy">
-            <div className='summry' style={{fontFamily:"Poppins ",color:"white"}}>
+            <div className='summry' id="user-detail-intro" style={{fontFamily:"Poppins ",color:"white"}}>
             Strong in design and integration with intuitive problem-solving skills. Proficient
 in HTML, CSS, JavaScript, React, and Redux. Passionate about implementing and
 launching new projects. Ability to translate business requirements into technical
@@ -59,7 +59,7 @@ driven by technology.
             <div className="profile-option" style={{marginTop:"20px",justifyContent:"center",display:"flex"}}>
             {/* <button className="btn primary-btn"> Hire Me </button> */}
             <a href="Resume.pdf" onClick={handleResume} download="Mohd-Ashique-Resume.pdf">
-              <button className="btn highlighted-btn" onClick={handleResume}>Get Resume</button>
+              <button className="btn highlighted-btn" id="resume-button-2" onClick={handleResume}>Get Resume</button>
             </a>
           </div>
           </div>

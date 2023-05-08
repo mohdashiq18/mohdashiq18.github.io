@@ -37,22 +37,22 @@ const Contact = () => {
       <div className="contact-details" >
       <div className="contact-link">
         <div >
-        <h4 className="link"><MdCall className="span"/>+91 70884017971</h4>
+        <h4 className="link"><MdCall className="span" id="contact-phone"/>+91 70884017971</h4>
         </div>
         <div >
-          <h4 className="link"><a href="https://moashiq2018@gmail.com" target="_blank" style={{color:"#e74d06"}}>
+          <h4 className="link"><a href="https://moashiq2018@gmail.com" id="contact-email" target="_blank" style={{color:"#e74d06"}}>
           <MdEmail className="span"/>moashiq2018@gmail.com</a></h4>
         </div>
 
         <div >
-          <h4 className="link"><a href="https://www.linkedin.com/in/mohd-ashique-91a00b233/" target="_blank" style={{color:"#e74d06"}}>
+          <h4 className="link"><a href="https://www.linkedin.com/in/mohd-ashique-91a00b233/" id="contact-linkedin"  target="_blank" style={{color:"#e74d06"}}>
                 <i className="fa fa-linkedin-square"></i>Linkedin
               </a></h4>
         </div>
 
 
         <div >
-          <h4 className="link"><a href="https://github.com/mohdashiq18" target="_blank" style={{color:"#e74d06"}}>
+          <h4 className="link"><a href="https://github.com/mohdashiq18"  id="contact-github" target="_blank" style={{color:"#e74d06"}}>
                 <i className="fa fa-github-square"></i>GitHub 
               </a>
               </h4>

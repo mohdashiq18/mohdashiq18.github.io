@@ -5,6 +5,50 @@ body {
   background: #fff; /* fallback for old browsers */
   /* background-image: url('../assets/Home/bg.jpg'); */
 }
+
+
+.center{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto
+}
+
+  .monitor-wrapper{
+    background: black;
+    width: 7700px;
+    height: 150px;
+    box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.30);
+  }
+    .monitor{
+      width: 900px;
+      height: 100px;
+      background-color: black;
+      overflow: hidden;
+      white-space: nowrap;
+      box-shadow: inset 0px 5px 10px 2px rgba(0,0,0,0.3);
+    }
+      .p{
+        font-family: 'VT323', monospace;
+        font-size: 28px;
+        margin-top: 5px;
+        font-weight: bold;
+        position: relative;
+        display: inline-block;
+        animation: move 40s infinite linear;
+        color: white
+      }
+      
+@keyframes move{
+  from{
+    left: 900px
+  }
+  to{
+    left: -600px
+    }
+  }
 * {
   margin: 0;
   padding: 0;
@@ -13,9 +57,15 @@ i {
   margin-right: 10px;
 }
 .navbar-logo {
-  padding: 10px;
   color: #fff;
   pointer-events: none;
+  font-family: "Lucida Handwriting", "Courier New", Cursive;
+}
+.Mohd_Ashique:hover{
+  cursor: pointer;
+}
+.navbar-logo:hover{
+  cursor: pointer;
 }
 
 .navbar-mainbg {
@@ -37,6 +87,11 @@ i {
 #navbarSupportedContent ul {
   padding: 0px;
   margin: 0px;
+  z-index: 9;
+ 
+
+ /* display: flex;
+ justify-content: center; */
 }
 #navbarSupportedContent ul li a i {
   margin-right: 10px;
@@ -44,6 +99,8 @@ i {
 #navbarSupportedContent li {
   list-style-type: none;
   float: left;
+  background-color: #000000;
+ 
 }
 #navbarSupportedContent ul li a {
   color: white;
@@ -79,6 +136,7 @@ i {
 
 #navbarSupportedContent ul li a:hover{
     color: #ff5823;
+    cursor: pointer;
     /* border-bottom: 3px solid #ff5823; */
 }
 
@@ -119,6 +177,10 @@ i {
 .hori-selector .left {
   left: -25px;
 }
+#hambg{
+  position: relative;
+  background-color: #000000;
+}
 .hori-selector .right:before,
 .hori-selector .left:before {
   content: '';
@@ -141,10 +203,12 @@ i {
   #navbarSupportedContent ul li a {
     padding: 12px 30px;
   }
-
   #navbarSupportedContent ul li .active{
     color: #fff;
     border-bottom: 0;
+}
+.p{
+  font-size: 20px
 }
 
   #navbarSupportedContent ul li a:hover{
@@ -204,3 +268,72 @@ i {
   }
 }
 
+@media (max-width: 420px) {
+  #navbarSupportedContent ul li a {
+    padding: 12px 30px;
+  }
+  #navbarSupportedContent ul li .active{
+    color: #fff;
+    border-bottom: 0;
+}
+.p{
+  font-size: 15px;
+  font-weight: normal;
+}
+
+  #navbarSupportedContent ul li a:hover{
+    color: #fff;
+    border-bottom: 0;
+    
+}
+  .hori-selector {
+    margin-top: 0px;
+    margin-left: 10px;
+    border-radius: 0;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    transition-duration: 0.6s;
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    background-color: #fff;
+    /* border-top-left-radius: 15px; */
+    border-top-right-radius: 15px;
+    /* margin-top: 10px; */
+  }
+  #navbarSupportedContent > ul > li.active > a {
+    color: #000000;
+    background-color: transparent;
+    transition: all 0.7s;
+  }
+  .navbar-mainbg {
+    background-color: black;
+    padding: 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .hori-selector .left,
+  .hori-selector .right {
+    right: 10px;
+  }
+  .hori-selector .left {
+    top: -25px;
+    left: auto;
+  }
+  .hori-selector .right {
+    bottom: -25px;
+  }
+  .hori-selector .left:before {
+    left: -25px;
+    top: -25px;
+  }
+  .hori-selector .right:before {
+    bottom: -25px;
+    left: -25px;
+  }
+}

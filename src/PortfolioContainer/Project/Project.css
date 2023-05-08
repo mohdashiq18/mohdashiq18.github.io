@@ -11,6 +11,7 @@
    margin: auto;
     gap: 40px;
     width: 90%;
+    flex-wrap: wrap;
     margin-top: 90px;
     
 }
@@ -24,11 +25,27 @@
     transition: 0.5s;
     text-align: center;
 }
-.project_div:hover{
+.bt_h{
+    transition: 0.5s;
+}
+.bt_h:hover{
+    scale: 1.11;
+    background: rgb(0, 0, 0);
+    color: black;
+}
+.pro_imag{
+    transition: 0.5s;
+}
+.pro_imag:hover{
+    scale: 1.11;
+    background: rgb(0, 0, 0);
+    color: black;
+}
+/* .project_div:hover{
     scale: 1.11;
     background: white;
     color: black;
-}
+} */
 .img{
     width: 100%;
     border-radius: 8px;
@@ -58,7 +75,7 @@
     background-color: cornsilk;
     color: #111;
 }
-@media (min-width:0px) and (max-width:860px) {
+/* @media (min-width:0px) and (max-width:860px) {
     .project{
         display: grid;
         justify-content: center;
@@ -69,10 +86,7 @@
        
         
     }
-    .project_div{
-        /* width: 60%; */
-        
-    }
+    
 }
 @media (min-width:861px) and (max-width:1200px){
     .project{
@@ -93,4 +107,4 @@
         padding: 10px;
         border-radius: 10px;
     }
-}
+} */

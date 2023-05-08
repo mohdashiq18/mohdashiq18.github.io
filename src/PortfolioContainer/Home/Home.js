@@ -9,7 +9,7 @@ import About from "../AboutMe/About"
 
  export default function Home(){
     return (
-        <div className="home-container">
+        <div className="home-container" id="home">
          
           <Profile/>
           <Footer/>
