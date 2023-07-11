@@ -37,7 +37,7 @@ const Contact = () => {
       <div className="contact-details" >
       <div className="contact-link">
         <div >
-        <h4 className="link"><MdCall className="span" id="contact-phone"/>+91 70884017971</h4>
+        <h4 className="link"><MdCall className="span" id="contact-phone"/>+91 7084017971</h4>
         </div>
         <div >
           <h4 className="link"><a href="https://moashiq2018@gmail.com" id="contact-email" target="_blank" style={{color:"#e74d06"}}>

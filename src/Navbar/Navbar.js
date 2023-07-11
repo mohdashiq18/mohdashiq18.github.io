@@ -4,7 +4,7 @@ import { AiFillHome } from "react-icons/ai";
 import $ from "jquery";
 import { FaUserAlt, FaDownload } from "react-icons/fa";
 import { Link } from "react-scroll";
-
+import ReactGA from 'react-ga';
 import { RiProjectorFill } from "react-icons/ri";
 import { GoThreeBars, GoBriefcase } from "react-icons/go";
 import { ImMail, ImPencil } from "react-icons/im";
@@ -46,6 +46,9 @@ const Navbar = () => {
       }, 500);
     });
   }, []);
+  useEffect(()=>{
+     ReactGA.pageview(window.location.pathname)
+  },[])
   const handleResume = () => {
     window.open(
       "https://drive.google.com/file/d/1jfsGnW8jMGHd_L5HIvraUDcKsTAIemJD/view?usp=sharing",

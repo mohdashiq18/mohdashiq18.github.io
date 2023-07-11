@@ -1,10 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./Project.css"
 import project1 from "./Screenshot 2022-12-09 174935.png"
 import project2 from "./prject2.png"
 import project3 from "./project3.png"
 import project4 from "./Project4.png"
+import ReactGA from 'react-ga';
 export default function Project() {
+    useEffect(()=>{
+        ReactGA.pageview(window.location.pathname)
+     },[])
   return (
     <div className='project_main'  id="projects">
         <div className='project_heading'>
